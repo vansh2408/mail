@@ -1,0 +1,83 @@
+body{
+    background-color: #44abe6;
+    font-size: 22px;
+    font-family: Rubik;
+    line-height: 1.9;
+}
+.main{
+    background-color: white;
+    margin: 80px 40px ;
+    border-radius: 10px;
+    padding: 30px;
+    padding-left: 45px;
+}
+#dear::first-letter{
+    font-size: 66px;
+    font-family: Sacramento;
+}
+#gre{
+    font-size: 30px;
+    color: tomato;
+    margin-left: 20px ;
+    font-weight: 600;
+}
+#about{
+    text-decoration: underline;
+    font-size: 35px;
+    margin: 0px;
+}
+#about::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 1px;
+    width: 75%;
+    top: 83.5%;
+    margin-left: 10px;
+}
+#courses{
+    position: relative;
+}
+#courses .one{
+    width: 65%;
+}
+#courses img{
+    position: absolute;
+    right: 5px;
+    top: 15px;
+}
+.list{
+    background-color: #0c1e74;
+    padding: 25px 25px 25px 45px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.bod{
+    background-color: #ff9980;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#imp{
+    background-color:  #ffff33;
+    border-radius: 15px;
+    padding: 20px;
+}
+#imp u{
+    font-size: 25px;
+}
+footer{
+    background-color: gray;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 19px;
+}
+footer div{
+    display: inline-block;
+    margin-left: 10px;
+}
+footer svg{
+    margin-right: 5px;
+}
